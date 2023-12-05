@@ -17,8 +17,8 @@ namespace BunnyCart.Utilities
 {
     internal class CoreCodes
     {
-        Dictionary<string, string>? properties;
-        public IWebDriver? driver;
+       
+       
         protected void TakeScreenShot(IWebDriver driver)
         {
             ITakesScreenshot its = (ITakesScreenshot)driver;
